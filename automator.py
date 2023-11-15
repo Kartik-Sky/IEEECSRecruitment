@@ -46,9 +46,7 @@ except WebDriverException:
 driver.maximize_window()
 time.sleep(1)
 moveit("up")
-print("Hey.. Dino game about to start in 3 seconds")
 time.sleep(1)
-
 moveit('up')
 
 while True:
